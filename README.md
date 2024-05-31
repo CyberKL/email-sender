@@ -15,8 +15,8 @@ This project automates the submission of a Google Form using Selenium, captures 
 2. Install dependecies and setup env varaiables:
     ```bash
     pip install -r requirements.txt
-    export EMAIL_HOST_USER=your-email@example.com
-    export EMAIL_HOST_PASSWORD=your-app-password
+    export EMAIL_ADDRESS=your-email@example.com
+    export APP_PASS=your-app-password
 3. Apply migrations and start the Django server:
     python manage.py migrate
     python manage.py runserver
