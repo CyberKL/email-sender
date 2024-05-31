@@ -13,6 +13,7 @@ This project automates the submission of a Google Form using Selenium, captures 
    git clone https://github.com/CyberKL/email-sender.git
    cd email-sender 
 2. Install dependecies and setup env varaiables:
+    ```bash
     pip install -r requirements.txt
     export EMAIL_HOST_USER=your-email@example.com
     export EMAIL_HOST_PASSWORD=your-app-password
