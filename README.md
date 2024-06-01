@@ -18,6 +18,7 @@ This project automates the submission of a Google Form using Selenium, captures 
     export EMAIL_ADDRESS=your-email@example.com
     export APP_PASS=your-app-password
 3. Apply migrations and start the Django server:
+    ```bash
     python manage.py migrate
     python manage.py runserver
 
